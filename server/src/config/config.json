@@ -1,0 +1,72 @@
+{
+  "app": {
+    "locale": "es-MX",
+    "application": "commonsense-api",
+    "applicationUid": "commonsense-api",
+    "applicationPassword": "secretpassword",
+    "environment": "development",
+    "cryptoKey": "CUSTOM_CRYPTOKEY",
+    "host": "localhost",
+    "port": "3000",
+    "timeout": 600000,
+    "log": "dev"
+  },
+
+  "oauth": {
+    "secretKey": "SECRET_KEY",
+    "algorithm": "HS256",
+    "expiresIn": "30 minutes"
+  },
+
+  "sentry": {
+    "key": "SENTRY_KEY",
+    "secret": "SENTRY_SECRET",
+    "project": "SENTRY_PROJECT"
+  },
+
+  "mongo": {
+    "uri": "mongodb://localhost/commonsense",
+    "host": "MONGODB_HOST",
+    "user": "MONGODB_USER",
+    "password": "MONGODB_PASS",
+    "database": "MONGODB_DB",
+    "port": "MONGODB_PORT"
+  },
+
+  "mysql": {
+    "database": "commonsensedev",
+    "username": "root",
+    "password": "",
+    "host": "localhost",
+    "port": 3036,
+    "logging": false
+  },
+
+  "onesignal": {
+    "restKey": "ONESIGNAL_KEY",
+    "appID": "ONESIGNAL_ID"
+  },
+
+  "nexmo": {
+    "brandName": "Common Sense",
+    "apiKey": "NEXMO_API_KEY",
+    "apiSecret": "NEXMO_SECRET",
+    "applicationId": "NEXMO_ID",
+    "privateKey": "NEXMO_PRIVATE_KEY"
+  },
+
+  "mail": {
+    "account": "no-reply@commonsense.io",
+    "password": "MAIL_PASSWORD"
+  },
+
+  "aws": {
+    "ses": {
+      "source": "support@commonsense.io"
+    }
+  },
+
+  "maps": {
+    "key": "AIzaSyBrGFteQvICxtl6gM1LfeYA4OJgx2xppCE"
+  }
+}
